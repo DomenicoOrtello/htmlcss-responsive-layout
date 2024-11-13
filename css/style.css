@@ -148,7 +148,7 @@ main {
 /*----------------
     RESPONSIVE
 ------------------*/
-/* Tablet da 768px a infinito */
+/* Tablet da 768px in poi */
 @media screen and (min-width: 768px) {
     header {
         text-align: left;
@@ -160,7 +160,7 @@ main {
         float: left
     }
 }
-/* Desktop da 992px a infinito */
+/* Desktop da 992px in poi */
 @media screen and (min-width: 992px) {
     .recipe-intro .col-video {
         width: 70%;
