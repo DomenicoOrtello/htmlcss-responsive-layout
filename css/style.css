@@ -27,6 +27,10 @@
     max-width: 100%;
 }
 
+:root{
+    --list-style: none;
+}
+
 /*----------------
     LAYOUT
 ------------------*/
@@ -141,6 +145,47 @@ main {
     display: block;
 }
 
+.ul-header{
+    list-style: var(--list-style);
+}
+
+.ul-details{
+    list-style: var(--list-style);
+}
+
+#list-title-first{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-details {
+    background-color: white;
+}
+
+.social-links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-social{
+    border-radius: 50%;
+    border: transparent;
+    padding: 16px;
+    background-color: white;
+    margin: 20px;
+}
+
+#last-title{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+#short-hr{
+    width: 90px;
+}
 /*----------------
     FOOTER
 ------------------*/
