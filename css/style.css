@@ -119,6 +119,9 @@ header {
     color: #ff9614;
 }
 
+.ul-header{
+    list-style: var(--list-style);
+}
 /*----------------
     MAIN
 ------------------*/
@@ -143,10 +146,6 @@ main {
     width: 300px;
     margin: auto;
     display: block;
-}
-
-.ul-header{
-    list-style: var(--list-style);
 }
 
 .ul-details{
@@ -185,6 +184,15 @@ main {
 
 #short-hr{
     width: 90px;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+#banner{
+    margin-bottom: 10px;
+    width: 100%;
 }
 /*----------------
     FOOTER
@@ -229,6 +237,9 @@ h4{
     .img-tiramisu {
         float: left
     }
+    #banner{
+        width: 100%;
+    }
 }
 /* Desktop da 992px in poi */
 @media screen and (min-width: 992px) {
@@ -237,5 +248,11 @@ h4{
     }
     .recipe-intro .col-details {
         width: 30%;
+    }
+}
+/* Mobile fino a 767px */
+@media screen and (max-width: 767px) {
+    .img-banner{
+        display: none;
     }
 }
